@@ -1,0 +1,15 @@
+[package]
+name = "GiftBoxCryptogiftcards"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x7774dbdf51504a1c589d5d3f3efffff1edf339b4f90d59f4328fbe7e0376f12c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
